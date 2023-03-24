@@ -1,0 +1,15 @@
+{
+    "name": "vietbh/convert-vietnamese",
+    "description": "test package",
+    "autoload": {
+        "psr-4": {
+            "Vietbh\\ConvertVietnamese\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "viethoangbui"
+        }
+    ],
+    "require": {}
+}
