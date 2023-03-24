@@ -7,6 +7,7 @@ class Convert {
 
     public static function convertLatin($str) {
         $str = str_replace(self::$decomposed, self::$latin, str_replace(self::$precomposed, self::$latin, $str));
+
         return mb_strtolower($str);
     }
 }
